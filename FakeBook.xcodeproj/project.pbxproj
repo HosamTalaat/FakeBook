@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04384CBA2D689ED900A71451 /* Gifu in Frameworks */ = {isa = PBXBuildFile; productRef = 04384CB92D689ED900A71451 /* Gifu */; };
 		04537A512D6FDB3A000BB1A8 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 04537A502D6FDB3A000BB1A8 /* SDWebImageSwiftUI */; };
 /* End PBXBuildFile section */
 
@@ -71,7 +70,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				04537A512D6FDB3A000BB1A8 /* SDWebImageSwiftUI in Frameworks */,
-				04384CBA2D689ED900A71451 /* Gifu in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +130,6 @@
 			);
 			name = FakeBook;
 			packageProductDependencies = (
-				04384CB92D689ED900A71451 /* Gifu */,
 				04537A502D6FDB3A000BB1A8 /* SDWebImageSwiftUI */,
 			);
 			productName = FakeBook;
@@ -219,7 +216,6 @@
 			mainGroup = 043849A82D6897BE00A71451;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				04384CB82D689ED900A71451 /* XCRemoteSwiftPackageReference "Gifu" */,
 				04537A4F2D6FDB0B000BB1A8 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
 			preferredProjectObjectVersion = 77;
@@ -610,14 +606,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		04384CB82D689ED900A71451 /* XCRemoteSwiftPackageReference "Gifu" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/kaishin/Gifu.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 3.2.2;
-			};
-		};
 		04537A4F2D6FDB0B000BB1A8 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
@@ -629,11 +617,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		04384CB92D689ED900A71451 /* Gifu */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 04384CB82D689ED900A71451 /* XCRemoteSwiftPackageReference "Gifu" */;
-			productName = Gifu;
-		};
 		04537A502D6FDB3A000BB1A8 /* SDWebImageSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 04537A4F2D6FDB0B000BB1A8 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
